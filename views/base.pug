@@ -61,3 +61,10 @@ html(lang="en")
 
       gtag('js', new Date());
       gtag('config', '!{analytics}');
+
+    script.
+      window.prismic = {
+        endpoint: "https://espidesigns2020.cdn.prismic.io/api/v2"
+      }  
+    script(async src="https://static.cdn.prismic.io/prismic.min.js?new=true")
+    
