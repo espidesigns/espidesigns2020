@@ -1,10 +1,14 @@
-# Bruno Arizio
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c355083d-9895-4958-adb5-c06c595f449b/deploy-status)](https://app.netlify.com/sites/rad-goldstine-d1862c/deploys)
+
+# espidesigns // 2020
 
 [![JS Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
 
-[![Screenshot of Website](bruno-arizio.png)](https://brunoarizio.com/)
+[![Screenshot of Website](espidesigns-screenshot.png)](https://www.espidesigns.com/)
 
-This is the repository of [Bruno Arizio](http://brunoarizio.com/) portfolio. We decided to be transparent and take a step forward in making this entire project open source so people can learn how to make the things we created. The website was awarded at [Awwwards](https://www.awwwards.com/) with Site of The Day and Developer Award in [November 25, 2019](https://www.awwwards.com/sites/bruno-arizio-portfolio).
+This is the repository of [espidesigns](https://www.espidesigns.com/) portfolio. 
+
+This is forked from the repository of [Bruno Arizio](http://brunoarizio.com/) portfolio. We decided to be transparent and take a step forward in making this entire project open source so people can learn how to make the things we created. The website was awarded at [Awwwards](https://www.awwwards.com/) with Site of The Day and Developer Award in [November 25, 2019](https://www.awwwards.com/sites/bruno-arizio-portfolio).
 
 ## Overview
 
@@ -55,3 +59,18 @@ You'll also notice a `images` folder inside the `prismic` folder. By the time I'
 # Credits
 
 That's all folks! I hope this repository might be useful for your learnings. When I was starting my career, I've learned a lot from [Bruno Imbrizi](https://github.com/brunoimbrizi/), [Giulian Drimba](https://github.com/giuliandrimba) and [Silvio Paganini](https://github.com/silviopaganini) public repositories, among many others public repositories made by incredible people. So I'm doing it too as a way to contribute with the growth of the community as well.
+
+# Netlify
+
+In the site settings, add the env variables from above.
+
+
+```sh
+# Backend 
+npm run backend:build
+npm run backend:development
+
+# Frontend
+npm run frontend:build
+npm run frontend:development
+```
