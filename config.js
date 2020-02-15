@@ -8,7 +8,7 @@ const path = require('path')
 module.exports = (() => {
   const app = express()
 
-  app.set('port', 3007)
+  app.set('port', 8080)
 
   app.set('views', path.join(__dirname, 'views'))
   app.set('view engine', 'pug')
