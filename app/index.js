@@ -428,7 +428,7 @@ class App {
     const links = document.querySelectorAll('a')
 
     each(links, link => {
-      if (link.href.indexOf('localhost') > -1 || link.href.indexOf('brunoarizio.com') > -1) {
+      if (link.href.indexOf('localhost') > -1 || link.href.indexOf('espidesigns.com') > -1) {
         link.onclick = event => {
           event.preventDefault()
 
