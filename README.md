@@ -1,5 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c355083d-9895-4958-adb5-c06c595f449b/deploy-status)](https://app.netlify.com/sites/rad-goldstine-d1862c/deploys)
-
 # espidesigns // 2020
 
 [![JS Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
