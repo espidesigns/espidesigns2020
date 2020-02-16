@@ -131,6 +131,19 @@ app.get('/case/:id', (request, response) => {
   })
 })
 
+app.get('/preview', (request, response) => {
+  const token = request.query.token;
+  if (token) {
+    request.prismic.api.previewSession(token, PrismicConfig.linkResolver, '/').then((url) => {
+      res.redirect(302, url);
+    }).catch((err) => {
+      res.status(500).send(`Error 500 in preview: ${err.message}`);
+    });
+  } else {
+    res.send(400, 'Missing token from querystring');
+  }
+});
+
 app.use((request, response) => {
   response.status(404)
 
